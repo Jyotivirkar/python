@@ -1,0 +1,44 @@
+#set, list, dictionary
+
+S='flask'
+Print(s[0]) 
+Print(s[3])
+Print(s[2:])
+Print(s[1:4])
+Print(s[-1])
+Print(s[::-1])
+
+#nested list
+Mylist=[1,2,3,[5,12.4,hello]]
+Print(Mylist[3]) 
+
+#dictionries
+d1={'key1':'hello'}
+d2={'key1':{'key2':'good'}}
+d2['key1']['key2']
+
+
+#In dictionary to find hello word
+
+d3={'key1':[{'nested_key':['this is a deep',['hello']]}]}
+d3=['key1']
+{'nested_key':['this is a deep',['hello']]}
+d3[key1][0]['nested key']
+['this is a deep,['hello']]
+d3[key1][0]['nested key'][1]
+['hello']
+d3[key1][0]['nested key'][1][0]
+
+
+# a set to find unique element
+
+Mylist=[2,5,8,1,5,5,6,3,5,2,,8,6,,4,7,2,3]
+Set[Mylist]
+
+#you are given variable
+Name= jyoti
+Age=22
+
+#How to print this varible
+Print ("My name is {} and my age is {}".format(name, age)
+Print ("My name is {name} and my age is {age}") 
